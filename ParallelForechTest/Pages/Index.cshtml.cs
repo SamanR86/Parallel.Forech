@@ -31,13 +31,19 @@ namespace ParallelForechTest.Pages
             //    Message = Message + item;
             //}
 
-            Parallel.ForEach(items, async (item) =>
+            //Parallel.ForEach(items, async (item) =>
+            //{
+            //    result = await delayMakerWithRandomSeconds();
+            //    total = result + total;
+            //    Message = Message + item;
+            //});
+
+            await Parallel.ForEachAsync(items, async (item, token) =>
             {
                 result = await delayMakerWithRandomSeconds();
                 total = result + total;
                 Message = Message + item;
             });
-
 
             var diff = DateTime.Now - startTime;
             RunTime = diff.Seconds.ToString();

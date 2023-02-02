@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelForechTest", "ParallelForechTest\ParallelForechTest.csproj", "{692E7560-7B91-4A65-9B9F-182A8D7F3051}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{692E7560-7B91-4A65-9B9F-182A8D7F3051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{692E7560-7B91-4A65-9B9F-182A8D7F3051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{692E7560-7B91-4A65-9B9F-182A8D7F3051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{692E7560-7B91-4A65-9B9F-182A8D7F3051}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D5E5843-4669-43A2-BB92-0A19AA4FBC75}
+	EndGlobalSection
+EndGlobal
